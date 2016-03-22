@@ -13,6 +13,8 @@
 		A3D409D61BF04F4100755E94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D409D51BF04F4100755E94 /* Images.xcassets */; };
 		A3D409D91BF04F4100755E94 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D409D71BF04F4100755E94 /* LaunchScreen.xib */; };
 		A3D409E51BF04F4100755E94 /* NavigationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D409E41BF04F4100755E94 /* NavigationDemoTests.swift */; };
+		A3D409EF1BF04F9600755E94 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D409EE1BF04F9600755E94 /* NewsViewController.swift */; };
+		A3D409F11BF04FAC00755E94 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D409F01BF04FAC00755E94 /* MovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A3D409DE1BF04F4100755E94 /* NavigationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D409E31BF04F4100755E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3D409E41BF04F4100755E94 /* NavigationDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDemoTests.swift; sourceTree = "<group>"; };
+		A3D409EE1BF04F9600755E94 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		A3D409F01BF04FAC00755E94 /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				A3D409CE1BF04F4100755E94 /* AppDelegate.swift */,
 				A3D409D01BF04F4100755E94 /* ViewController.swift */,
+				A3D409EE1BF04F9600755E94 /* NewsViewController.swift */,
+				A3D409F01BF04FAC00755E94 /* MovieViewController.swift */,
 				A3D409D21BF04F4100755E94 /* Main.storyboard */,
 				A3D409D51BF04F4100755E94 /* Images.xcassets */,
 				A3D409D71BF04F4100755E94 /* LaunchScreen.xib */,
@@ -156,6 +162,8 @@
 		A3D409C11BF04F4100755E94 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = hanJianXin;
 				TargetAttributes = {
@@ -212,8 +220,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D409EF1BF04F9600755E94 /* NewsViewController.swift in Sources */,
 				A3D409D11BF04F4100755E94 /* ViewController.swift in Sources */,
 				A3D409CF1BF04F4100755E94 /* AppDelegate.swift in Sources */,
+				A3D409F11BF04FAC00755E94 /* MovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +419,7 @@
 				A3D409EA1BF04F4100755E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3D409EB1BF04F4100755E94 /* Build configuration list for PBXNativeTarget "NavigationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +428,7 @@
 				A3D409ED1BF04F4100755E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

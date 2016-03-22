@@ -8,18 +8,26 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+
+class ViewController: UITabBarController {
+
+
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        var customersInLine = ["Chris", "Alex", "Ewa", "Barry", "Daniella"]
+        print(customersInLine.count, terminator: "")
+        // prints "5"
+        
+        let customerProvider = { customersInLine.removeAtIndex(0) }
+        print(customersInLine.count, terminator: "")
+        // prints "5"
+        
+        print("Now serving \(customerProvider())!", terminator: "")
+        // prints "Now serving Chris!"
+        print(customersInLine.count, terminator: "")
+        // prints "4"
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
